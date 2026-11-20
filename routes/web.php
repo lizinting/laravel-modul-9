@@ -67,6 +67,8 @@ Route::prefix('admin')->name('admin.')->group(function () {
 
 Route::view('/welcome', 'welcome');
 
+Route::view('/bootstrap_clone', 'bootstrap_clone');
+
 Route::fallback(function () {
    return 'This is Fallback Route';
 });

@@ -1,3 +1,20 @@
 @import "bootstrap/scss/bootstrap";
 
 @import "bootstrap-icons/font/bootstrap-icons.css";
+
+$purple-bs: #712cf9;
+
+.bg-purple { background-color: $purple-bs !important; }
+
+.btn.bg-purple:hover,
+.btn.bg-purple:focus {
+    background-color: #5a1fd1 !important;
+    color: #fff;
+}
+
+.dropdown-item.active.bg-purple { background-color: $purple-bs !important; }
+
+#main a:not(.btn),
+#bs-icons a,
+#bs-themes a,
+#footer a { color: $purple-bs; }
